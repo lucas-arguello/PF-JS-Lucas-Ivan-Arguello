@@ -29,11 +29,11 @@ h1 {
     color: rgb(65, 225, 108);
     /* text-transform: uppercase; */
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     }
 
 img.encabezado-logo{
-    max-width: 15%;
+    max-width: 12%;
     border-radius: 50%;
 }
 
