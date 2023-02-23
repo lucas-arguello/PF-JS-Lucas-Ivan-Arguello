@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Vivero Virtual</title>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+          <img class="encabezado-logo"src="./img/logo-mi-vivero.jpg" alt="">
+          <h1 id="titulo" class="titulo">Mi Vivero Virtual</h1>
+        </div>
+        
+        <button id="boton-carrito">Carrito de <br/> plantas <br/><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+    </header>
+
+    
+
+
+    <main id="contenedor-plantas">
+
+    </main>
+
+    <div  id="modal" class="modal-contenedor">
+        <div id="modal-carrito" class="modal-carrito">
+            <h3>Carrito de compras</h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+                
+            </div>
+            <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+            <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer__container">
+          <p>Nuestras redes sociales</p>
+          <a class="footer__container--redes" href="#"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+          <a class="footer__container--redes" href="#"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a class="footer__container--redes" href="#"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a class="footer__container--redes" href="#">
+            <i class="fa-brands fa-square-facebook mx-2"></i>
+          </a>
+        </div>
+  
+        <p>
+          @Copyright 2023 Mi Vivero Virtual | Creada por:
+          <a class="autor" href="#">Lucas Ivan Arguello</a>
+        </p>
+      </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="in-stock.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
